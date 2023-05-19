@@ -32,7 +32,7 @@ typedef pll_hw_t *PLL;
 #define pll_usb pll_usb_hw
 
 #ifndef PICO_PLL_VCO_MIN_FREQ_MHZ
-#define PICO_PLL_VCO_MIN_FREQ_MHZ 750
+#define PICO_PLL_VCO_MIN_FREQ_MHZ 400
 #endif
 
 #ifndef PICO_PLL_VCO_MAX_FREQ_MHZ
